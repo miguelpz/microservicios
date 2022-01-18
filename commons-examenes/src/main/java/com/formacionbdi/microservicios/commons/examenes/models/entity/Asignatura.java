@@ -22,7 +22,6 @@ public class Asignatura {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	//prueba versiones
 	private String nombre;
 	
 	@JsonIgnoreProperties(value= {"hijos"})
